@@ -1,12 +1,22 @@
 import type { LinkItem, ProfileInfo } from "@/types";
 
 export const profile: ProfileInfo = {
-  name: "Choi Minhyuck",
-  bio: "워메 링크 솔찬해븐다잉 🌱",
+  name: "김딱",
+  bio: "시드니 강냉이 킬러",
+  avatarUrl:
+    "https://media.licdn.com/dms/image/v2/D5603AQEjov4r0WtYXw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709041057270?e=1791417600&v=beta&t=In-vxanGAoSq8l9PXQfjoT3esQqA7cKVRvIcsffhr0M",
 };
 
 export const links: LinkItem[] = [
-  { id: "1", title: "Instagram", url: "https://instagram.com" },
-  { id: "2", title: "Blog", url: "https://blog.naver.com" },
-  { id: "3", title: "YouTube", url: "https://youtube.com" },
+  { id: "1", title: "Instagram", url: "https://www.instagram.com/jskiminam" },
+  {
+    id: "2",
+    title: "LinkedIn",
+    url: "https://www.linkedin.com/in/jason-kim-725722171/",
+  },
+  {
+    id: "3",
+    title: "Blog",
+    url: "https://www.instagram.com/reel/DJe--i3SN8RpW_gnEUM57dMRBGz2nD_ONAyRTs0/",
+  },
 ];
